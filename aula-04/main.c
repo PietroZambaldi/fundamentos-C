@@ -8,5 +8,12 @@ int main(){
         printf("%.2f\n", calcula_circulo());
     }
 
+    if(opcao == 2){
+        printf("%.2f\n", calcula_retangulo());
+    }
+
+    if(opcao == 3){
+        printf("%.2f\n", calcula_triangulo());
+    }
     return 0;  
 }

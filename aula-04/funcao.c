@@ -17,6 +17,10 @@ int menu(){
                 return opcao;
             }
         printf("\nOpção inválida\n");
+
+        if(opcao == 4){
+            break;
+        }
     }
 }
 
@@ -34,5 +38,17 @@ float calcula_retangulo(){
 
     printf("Digite a altura: ");
     scanf("%f", &altura);
-    printf("DIgit")
+    printf("Digite o valor da base");
+    scanf("%f", &base);
+    return base * altura;
+}
+
+float calcula_triangulo(){
+    float baset, alturat;
+
+    printf("Digite a altura: ");
+    scanf("%f", &alturat);
+    printf("Digite o valor da base: ");
+    scanf("%f", &baset);
+    return (baset*alturat)/2;
 }
