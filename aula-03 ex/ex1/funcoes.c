@@ -1,1 +1,1 @@
-int maior (int, int)
+int maior (int, int);

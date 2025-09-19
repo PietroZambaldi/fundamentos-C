@@ -1,12 +1,17 @@
-float soma (float num1, num2){
-    num1 + num2
+#include"calculadora.h"
+
+float somar(float a, float b){
+    return a + b;
 }
-float sub (float num1, num2){
-    num1 - num2
+
+float sub(float a, float b){
+    return a - b;
 }
-float mult (float num1, num2){
-    num1 * num2
+
+float mult(float a, float b){
+    return a * b;
 }
-float div (float num1, num2){
-    num1 / num2 
+
+float div(float a, float b){
+    return a / b;
 }

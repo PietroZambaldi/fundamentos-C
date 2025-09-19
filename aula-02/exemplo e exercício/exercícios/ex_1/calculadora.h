@@ -1,4 +1,4 @@
-float soma(float, float)
-float sub(float, float)
-float mult(float, float)
-float div(float, float)
+float somar(float a, float b);
+float sub(float a, float b);
+float mult(float a, float b);
+float div(float a, float b);
